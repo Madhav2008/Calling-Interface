@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Text('Calling Interface'),
+      home: Center(child: const Text('Calling Interface')),
     );
   }
 }
