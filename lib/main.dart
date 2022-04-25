@@ -17,7 +17,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Center(
-        child: Text('Calling Interface',),
+        child: Text(
+          'Calling Interface',
+        ),
       ),
     );
   }
