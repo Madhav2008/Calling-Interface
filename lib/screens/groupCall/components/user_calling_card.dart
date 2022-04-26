@@ -26,7 +26,10 @@ class UserCallingCard extends StatelessWidget {
           VerticalSpacing(of: 10),
           Text(
             name,
-            style: TextStyle(fontSize: 18, color: Colors.white,),
+            style: TextStyle(
+              fontSize: 18,
+              color: Colors.white,
+            ),
           ),
           VerticalSpacing(of: 5),
           Text(
