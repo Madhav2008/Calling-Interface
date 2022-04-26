@@ -5,7 +5,7 @@ import '../../../size_config.dart';
 
 class DialButton extends StatelessWidget {
   const DialButton({
-    Key key,
+    Key? key,
     @required this.iconSrc,
     @required this.text,
     @required this.press,
