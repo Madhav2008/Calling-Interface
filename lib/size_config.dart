@@ -27,7 +27,7 @@ double getProportionateScreenWidth(double inputWidth) {
 
 class VerticalSpacing extends StatelessWidget {
   const VerticalSpacing({
-    Key key,
+    Key? key,
     this.of = 20,
   }) : super(key: key);
 
