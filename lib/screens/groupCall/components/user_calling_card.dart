@@ -1,6 +1,5 @@
 import 'package:calling_interface_flutter/components/dial_user_pic.dart';
 import 'package:flutter/material.dart';
-
 import '../../../constants.dart';
 import '../../../size_config.dart';
 
