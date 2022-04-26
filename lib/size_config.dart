@@ -25,7 +25,6 @@ double getProportionateScreenWidth(double inputWidth) {
   return (inputWidth / 414.0) * screenWidth;
 }
 
-// For add free space vertically
 class VerticalSpacing extends StatelessWidget {
   const VerticalSpacing({
     Key key,
