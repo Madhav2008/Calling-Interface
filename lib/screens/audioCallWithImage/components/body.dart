@@ -26,7 +26,7 @@ class Body extends StatelessWidget {
                   "Jemmy \nWilliams",
                   style: Theme.of(context)
                       .textTheme
-                      .headline3
+                      .headline3!
                       .copyWith(color: Colors.white),
                 ),
                 VerticalSpacing(of: 10),
