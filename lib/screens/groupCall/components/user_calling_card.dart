@@ -7,7 +7,7 @@ class UserCallingCard extends StatelessWidget {
   const UserCallingCard({
     Key? key,
     required this.name,
-    @required this.image,
+    required this.image,
   }) : super(key: key);
 
   final String name, image;
