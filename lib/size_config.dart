@@ -22,7 +22,6 @@ double getProportionateScreenHeight(double inputHeight) {
 
 double getProportionateScreenWidth(double inputWidth) {
   double screenWidth = SizeConfig.screenWidth;
-  // 414 is the layout width that designer use or you can say iPhone 11  width
   return (inputWidth / 414.0) * screenWidth;
 }
 
