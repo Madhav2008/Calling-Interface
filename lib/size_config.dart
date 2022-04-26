@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-// SizeConfig help us to make our UI responsive
-/// Make sure you need to call [SizeConfig.init(context)] on your starting screen
 class SizeConfig {
   static MediaQueryData _mediaQueryData;
   static double screenWidth;
