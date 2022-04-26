@@ -1,4 +1,4 @@
-import 'package:calling/components/rounded_button.dart';
+import 'package:calling_interface_flutter/components/rounded_button.dart';
 import 'package:calling/constants.dart';
 import 'package:calling/size_config.dart';
 import 'package:flutter/material.dart';
