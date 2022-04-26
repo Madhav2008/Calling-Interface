@@ -7,7 +7,7 @@ class RoundedButton extends StatelessWidget {
   const RoundedButton({
     Key? key,
     this.size = 64,
-    @required this.iconSrc,
+    required this.iconSrc,
     this.color = Colors.white,
     this.iconColor = Colors.black,
     @required this.press,
