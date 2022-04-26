@@ -10,7 +10,7 @@ class RoundedButton extends StatelessWidget {
     required this.iconSrc,
     this.color = Colors.white,
     this.iconColor = Colors.black,
-    @required this.press,
+    required this.press,
   }) : super(key: key);
 
   final double size;
