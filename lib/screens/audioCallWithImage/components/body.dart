@@ -13,7 +13,6 @@ class Body extends StatelessWidget {
           "assets/images/full_image.png",
           fit: BoxFit.cover,
         ),
-        // Black Layer
         DecoratedBox(
           decoration: BoxDecoration(color: Colors.black.withOpacity(0.3)),
         ),
