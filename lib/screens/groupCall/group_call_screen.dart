@@ -3,7 +3,6 @@ import 'package:calling_interface_flutter/constants.dart';
 import 'package:calling_interface_flutter/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-
 import 'components/body.dart';
 
 class GroupCallScreen extends StatelessWidget {
