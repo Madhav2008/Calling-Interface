@@ -17,7 +17,6 @@ class SizeConfig {
 
 double getProportionateScreenHeight(double inputHeight) {
   double screenHeight = SizeConfig.screenHeight;
-  // Our designer use iPhone 11, that's why we use 896.0
   return (inputHeight / 896.0) * screenHeight;
 }
 
