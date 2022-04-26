@@ -10,7 +10,7 @@ class Body extends StatelessWidget {
       fit: StackFit.expand,
       children: [
         Image.asset(
-          "assets/images/full_image.png",
+          "../assets/images/full_image.png",
           fit: BoxFit.cover,
         ),
         DecoratedBox(
@@ -42,17 +42,17 @@ class Body extends StatelessWidget {
                   children: [
                     RoundedButton(
                       press: () {},
-                      iconSrc: "assets/icons/Icon Mic.svg",
+                      iconSrc: "../assets/icons/Icon Mic.svg",
                     ),
                     RoundedButton(
                       press: () {},
                       color: kRedColor,
                       iconColor: Colors.white,
-                      iconSrc: "assets/icons/call_end.svg",
+                      iconSrc: "../assets/icons/call_end.svg",
                     ),
                     RoundedButton(
                       press: () {},
-                      iconSrc: "assets/icons/Icon Volume.svg",
+                      iconSrc: "../assets/icons/Icon Volume.svg",
                     ),
                   ],
                 ),

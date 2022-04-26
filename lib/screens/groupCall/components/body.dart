@@ -14,7 +14,7 @@ class Body extends StatelessWidget {
       itemBuilder: (context, index) => demoData[index]["isCalling"]
           ? UserCallingCard(
               name: "Steve jon",
-              image: "assets/images/group_call_face_small.png",
+              image: "../assets/images/group_call_face_small.png",
             )
           : Image.asset(
               demoData[index]['image'],
@@ -28,21 +28,21 @@ List<Map<String, dynamic>> demoData = [
   {
     "isCalling": false,
     "name": "User 1",
-    "image": "assets/images/goup_call_1.png",
+    "image": "../assets/images/goup_call_1.png",
   },
   {
     "isCalling": true,
     "name": "Steve jon",
-    "image": "assets/images/group_call_face_small.png",
+    "image": "../assets/images/group_call_face_small.png",
   },
   {
     "isCalling": false,
     "name": "User 1",
-    "image": "assets/images/group_call_face_2.png",
+    "image": "../assets/images/group_call_face_2.png",
   },
   {
     "isCalling": false,
     "name": "User 1",
-    "image": "assets/images/group_call_face_3.png",
+    "image": "../assets/images/group_call_face_3.png",
   },
 ];

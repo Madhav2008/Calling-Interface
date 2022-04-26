@@ -30,38 +30,38 @@ class _BodyState extends State<Body> {
               style: TextStyle(color: Colors.white60),
             ),
             VerticalSpacing(),
-            DialUserPic(image: "assets/images/calling_face.png"),
+            DialUserPic(image: "../assets/images/calling_face.png"),
             Spacer(),
             Wrap(
               alignment: WrapAlignment.spaceBetween,
               children: [
                 DialButton(
-                  iconSrc: "assets/icons/Icon Mic.svg",
+                  iconSrc: "../assets/icons/Icon Mic.svg",
                   text: "Audio",
                   press: () {},
                 ),
                 DialButton(
-                  iconSrc: "assets/icons/Icon Volume.svg",
+                  iconSrc: "../assets/icons/Icon Volume.svg",
                   text: "Microphone",
                   press: () {},
                 ),
                 DialButton(
-                  iconSrc: "assets/icons/Icon Video.svg",
+                  iconSrc: "../assets/icons/Icon Video.svg",
                   text: "Video",
                   press: () {},
                 ),
                 DialButton(
-                  iconSrc: "assets/icons/Icon Message.svg",
+                  iconSrc: "../assets/icons/Icon Message.svg",
                   text: "Message",
                   press: () {},
                 ),
                 DialButton(
-                  iconSrc: "assets/icons/Icon User.svg",
+                  iconSrc: "../assets/icons/Icon User.svg",
                   text: "Add contact",
                   press: () {},
                 ),
                 DialButton(
-                  iconSrc: "assets/icons/Icon Voicemail.svg",
+                  iconSrc: "../assets/icons/Icon Voicemail.svg",
                   text: "Voice mail",
                   press: () {},
                 ),
@@ -69,7 +69,7 @@ class _BodyState extends State<Body> {
             ),
             VerticalSpacing(),
             RoundedButton(
-              iconSrc: "assets/icons/call_end.svg",
+              iconSrc: "../assets/icons/call_end.svg",
               press: () {},
               color: kRedColor,
               iconColor: Colors.white,
