@@ -51,7 +51,7 @@ class VerticalSpacing extends StatelessWidget {
 // For add free space horizontally
 class HorizontalSpacing extends StatelessWidget {
   const HorizontalSpacing({
-    Key key,
+    Key? key,
     this.of = 20,
   }) : super(key: key);
 
