@@ -1,4 +1,4 @@
-import 'package:calling/components/dial_user_pic.dart';
+import 'package:calling_interface_flutter/components/dial_user_pic.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants.dart';
