@@ -5,7 +5,7 @@ import '../size_config.dart';
 
 class RoundedButton extends StatelessWidget {
   const RoundedButton({
-    Key key,
+    Key? key,
     this.size = 64,
     @required this.iconSrc,
     this.color = Colors.white,
