@@ -7,7 +7,7 @@ class DialButton extends StatelessWidget {
   const DialButton({
     Key? key,
     required this.iconSrc,
-    @required this.text,
+    required this.text,
     @required this.press,
   }) : super(key: key);
 
