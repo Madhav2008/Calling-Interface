@@ -9,7 +9,6 @@ class Body extends StatelessWidget {
     return Stack(
       fit: StackFit.expand,
       children: [
-        // Image
         Image.asset(
           "assets/images/full_image.png",
           fit: BoxFit.cover,
