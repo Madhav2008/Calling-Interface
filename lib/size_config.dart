@@ -21,7 +21,7 @@ class VerticalSpacing extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: getProportionateScreenWidth(of),
+      height: getProportionateScreenWidth(of, context),
     );
   }
 }
