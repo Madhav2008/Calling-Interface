@@ -16,7 +16,7 @@ class SizeConfig {
 }
 
 double getProportionateScreenHeight(double inputHeight) {
-  double screenHeight = ;
+  double screenHeight = MediaQuery.of(context).size.height;
   return (inputHeight / 896.0) * screenHeight;
 }
 
