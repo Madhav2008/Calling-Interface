@@ -5,7 +5,7 @@ double getProportionateScreenHeight(double inputHeight, context) {
   return (inputHeight / 896.0) * screenHeight;
 }
 
-double getProportionateScreenWidth(double inputWidth) {
+double getProportionateScreenWidth(double inputWidth, context) {
   double screenWidth = MediaQuery.of(context).size.height;
   return (inputWidth / 414.0) * screenWidth;
 }
