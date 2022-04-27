@@ -37,7 +37,7 @@ class HorizontalSpacing extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: getProportionateScreenWidth(of),
+      width: getProportionateScreenWidth(of, context),
     );
   }
 }
