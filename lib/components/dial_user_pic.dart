@@ -15,7 +15,7 @@ class DialUserPic extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.all(30 / 192 * size),
-      height: getProportionateScreenWidth(size),
+      height: getProportionateScreenWidth(size, context),
       width: getProportionateScreenWidth(size),
       decoration: BoxDecoration(
         shape: BoxShape.circle,
