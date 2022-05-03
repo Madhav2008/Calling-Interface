@@ -61,7 +61,7 @@ class _BodyState extends State<Body> {
                   press: () {},
                 ),
                 DialButton(
-                  iconSrc: "../assets/icons/Icon Voicemail.svg",
+                  iconSrc: "../assets/icons/Icon_Voicemail.svg",
                   text: "Voice mail",
                   press: () {},
                 ),
