@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         fontFamily: "SF UI",
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: GroupCallScreen(),
+      home: AudioCallWithImage(),
     );
   }
 }
