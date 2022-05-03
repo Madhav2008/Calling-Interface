@@ -44,7 +44,7 @@ class Body extends StatelessWidget {
                   children: [
                     RoundedButton(
                       press: () {},
-                      iconSrc: "../assets/icons/Icon Mic.svg",
+                      iconSrc: "../assets/icons/Icon_Mic.svg",
                     ),
                     RoundedButton(
                       press: () {},
