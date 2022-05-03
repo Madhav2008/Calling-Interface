@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Calling ',
+      title: 'Calling Interface',
       theme: ThemeData(
         fontFamily: "SF UI",
         visualDensity: VisualDensity.adaptivePlatformDensity,
