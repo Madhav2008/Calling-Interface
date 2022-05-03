@@ -46,7 +46,7 @@ class _BodyState extends State<Body> {
                   press: () {},
                 ),
                 DialButton(
-                  iconSrc: "../assets/icons/Icon Video.svg",
+                  iconSrc: "../assets/icons/Icon_Video.svg",
                   text: "Video",
                   press: () {},
                 ),
