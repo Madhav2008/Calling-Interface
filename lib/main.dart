@@ -1,4 +1,4 @@
-import 'package:calling_interface/screens/dialScreen/dial_screen.dart';
+import 'package:calling_interface_flutter/screens/dialScreen/dial_screen.dart';
 import 'package:calling/screens/groupCall/group_call_screen.dart';
 import 'package:flutter/material.dart';
 
