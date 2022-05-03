@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 import 'screens/audioCallWithImage/audio_call_with_image_screen.dart';
 
 void main() {
-  runApp(MyApp(),);
+  runApp(
+    MyApp(),
+  );
 }
 
 class MyApp extends StatelessWidget {
