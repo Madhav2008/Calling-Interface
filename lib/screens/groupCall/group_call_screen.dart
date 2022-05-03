@@ -78,7 +78,7 @@ class GroupCallScreen extends StatelessWidget {
       actions: [
         IconButton(
           icon: SvgPicture.asset(
-            "../assets/icons/Icon User.svg",
+            "../assets/icons/Icon_User.svg",
             height: 24,
           ),
           onPressed: () {},
