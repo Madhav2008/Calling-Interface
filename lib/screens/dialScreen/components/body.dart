@@ -36,7 +36,7 @@ class _BodyState extends State<Body> {
               alignment: WrapAlignment.spaceBetween,
               children: [
                 DialButton(
-                  iconSrc: "../assets/icons/Icon Mic.svg",
+                  iconSrc: "../assets/icons/Icon_Mic.svg",
                   text: "Audio",
                   press: () {},
                 ),
