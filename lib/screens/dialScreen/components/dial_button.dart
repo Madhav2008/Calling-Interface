@@ -22,7 +22,7 @@ class DialButton extends StatelessWidget {
       ),
       child: FlatButton(
         padding: EdgeInsets.symmetric(
-          vertical: getProportionateScreenWidth(20, context),
+          vertical: getProportionateScreenWidth(20, context,),
         ),
         onPressed: press,
         child: Column(
