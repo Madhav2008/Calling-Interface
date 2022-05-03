@@ -54,7 +54,7 @@ class Body extends StatelessWidget {
                     ),
                     RoundedButton(
                       press: () {},
-                      iconSrc: "../assets/icons/Icon Volume.svg",
+                      iconSrc: "../assets/icons/Icon_Volume.svg",
                     ),
                   ],
                 ),
