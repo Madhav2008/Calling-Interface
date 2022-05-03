@@ -14,7 +14,7 @@ class Body extends StatelessWidget {
           fit: BoxFit.cover,
         ),
         DecoratedBox(
-          decoration: BoxDecoration(color: Colors.black.withOpacity(0.3)),
+          decoration: BoxDecoration(color: Colors.black.withOpacity(0.3),),
         ),
         Padding(
           padding: const EdgeInsets.all(20.0),
