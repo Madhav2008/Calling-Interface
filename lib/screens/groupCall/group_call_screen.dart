@@ -43,7 +43,7 @@ class GroupCallScreen extends StatelessWidget {
                 color: Color(0xFF2C384D),
                 iconColor: Colors.white,
                 size: 48,
-                iconSrc: "../assets/icons/Icon Mic.svg",
+                iconSrc: "../assets/icons/Icon_Mic.svg",
                 press: () {},
               ),
               RoundedButton(
