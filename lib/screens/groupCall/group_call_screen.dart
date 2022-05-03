@@ -27,7 +27,7 @@ class GroupCallScreen extends StatelessWidget {
                 color: kRedColor,
                 iconColor: Colors.white,
                 size: 48,
-                iconSrc: "../assets/icons/Icon Close.svg",
+                iconSrc: "../assets/icons/Icon_Close.svg",
                 press: () {},
               ),
               Spacer(flex: 3),
