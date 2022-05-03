@@ -16,7 +16,7 @@ class DialButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: getProportionateScreenWidth(120, context),
+      width: getProportionateScreenWidth(120, context,),
       child: FlatButton(
         padding: EdgeInsets.symmetric(
           vertical: getProportionateScreenWidth(20),
