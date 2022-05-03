@@ -8,7 +8,6 @@ import 'components/body.dart';
 class GroupCallScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    SizeConfig().init(context);
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: buildAppBar(),
